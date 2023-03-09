@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int v[101], n, x, ok; // deklarálunk: egy 100 elemű vektort; hány eleme van; melyik számot keressük; és egy oké változót
     
-    cin >> n >> x; // beolvassuk az n számot
+    cin >> n >> x; // beolvassuk: az n számot; és hogy melyik számot keressük
     
     for(int i = 1; i <= n; i++) {
         cin >> v[i]; // beolvassuk a vektort
