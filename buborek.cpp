@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int v[101], n, ok; // deklarálunk egy 100 elemű vektort, hány eleme van, és egy oké változót
+    int v[101], n, ok; // deklarálunk: egy 100 elemű vektort; hány eleme van; és egy oké változót
     
     cin >> n; // beolvassuk az n számot
     
