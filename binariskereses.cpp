@@ -26,7 +26,8 @@ int main() {
     while(left <= right) { // bináris keresés
         mid = left + (right - left) / 2;
         if(v[mid] == x) {
-            return t = 1;
+            t = 1;
+            break;
         }
         if(v[mid] < x) {
             left = mid + 1;
