@@ -22,7 +22,7 @@ int main() {
     
     int t = 0; // deklaráljuk a t = talált változót először false-ra
     for(int i = 1; i <= n; i++) { // lineáris keresés
-        if(x > v[i]) break;
+        if(x < v[i]) break;
         if(x == v[i]) {
             t = 1;
             break;
