@@ -6,8 +6,13 @@ int main() {
     cin >> n; // beolvassuk az n számot
     
     if(n < 2) prim = 0;
-    for(int i = 2; i * i <= n; i++) { // elmegy n gyökéig, és ellenőrzi hogy prím szám-e
-        if(n % i == 0) prim = 0;
+    else {
+        for(int i = 2; i * i <= n; i++) { // elmegy n gyökéig, és ellenőrzi hogy prím szám-e
+            if(n % i == 0) {
+                prim = 0;
+                break;
+            }
+        }
     }
     
     if(prim) cout << "Prím szám.";
